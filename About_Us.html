@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="./jquery/jquery.js"></script>
+    <script type="text/javascript" src="./bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./w3.css">
+    <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <style>
+        body, h1, h2, h4, h5, h6 {
+            font-family: "Raleway", sans-serif
+        }
+
+        h3.w3-center {
+            font-family: "Raleway", sans-serif;
+            color: #ab2727;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        body, html {
+            height: 100%;
+            line-height: 1.8;
+        }
+
+        /* Full height image header */
+        .bgimg-1 {
+            background-position: center;
+            background-size: cover;
+            /* background-image: url("banner3.jpg");*/
+            min-height: 5%;
+        }
+
+        .w3-bar .w3-button {
+            padding: 16px;
+            font-size: 18px;
+            color: #808080;
+        }
+
+        .w3-container {
+            text-align: center;
+        }
+
+        li a {
+            color: white;
+        }
+    </style>
+</head>
+<body style="">
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+            <a href="index.html" class="w3-bar-item w3-button w3-wide" style=""><img src="./images/img1_1_Logo/logo_100X100.png" alt="Raaga Food Products" style="height:15%;width:15%;"></a>
+            <!-- Right-sided navbar links -->
+            <div class="w3-right w3-hide-small">
+                <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+                <a href="#" class="w3-bar-item w3-button">ABOUT US</a>
+                <a href="#products" class="w3-bar-item w3-button">OUR PRODUCTS</a>
+                <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+                <a href="#" class="w3-bar-item w3-button">TESTIMONIALS</a>
+                <a href="#" class="w3-bar-item w3-button">RESEARCH PAPERS</a>
+                <a href="#" class="w3-bar-item w3-button">PRESS RELEASES</a>
+            </div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+        <a href="#products" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+        <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button">OUR PRODUCTS</a>
+        <a href="#customers" onclick="w3_close()" class="w3-bar-item w3-button">TESTIMONIALS</a>
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">RESEARCH PAPERS</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+
+    </nav>
+    <br /><br /><br /><br />
+    <div style="height:100px"> <img src="./images/about3.jpg" style="height:300px; width:1300px" /></div>
+
+    <div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <p> <h2 style="text-align:center; color:#ab2727">WE ARE<br />Raaga Food Products</h2> </p>
+        <p style="margin-left:87px; margin-right:87px;">
+            We are one of the largest mushroom cultivation, processing and marketing companies. We have extensive experience in the cultivation of medicinal mushrooms.
+
+            We have a very talented pool of skillful professionals. Our team, consisting of skilled executives and experienced consultants, has extensive experience in cultivation of exotic products and has mastered the art of processing to extract the nutrients in the most appealing product line.
+
+            Our mushrooms aren’t “bred” or “manufactured.” They are grown the way nature intended, expertly sourced from regions of the world that produce only the best-quality product. We know where to get the best mushrooms and how to get the most out of them. Using only whole fruiting bodies, we thoroughly extract the beneficial compounds and analytically test every batch to ensure our customers get the mushrooms they deserve. And we would never consider adding a single grain, starch or filler.
+
+            From extract powders and capsules to collagen, coffee and even “shroomies” for dogs, every mushroom we cultivate is designed to help everyone live better, feel amazing and meet seemingly impossible goals. What started as a hobby has grown into a passion. And what could be more powerful than that?
+        </p>
+    </div>
+</body>
+
+</html>
